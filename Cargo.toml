@@ -1,0 +1,13 @@
+[package]
+name = "spotify_export_models"
+description = "Rust structs for Spotify's export data with Serde support"
+authors = ["Blooym"]
+license = "BSD-3-Clause"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+serde = { version = "1.0.188", features = ["derive"], optional = true }
+
+[features]
+serde = ["dep:serde"]
