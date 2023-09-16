@@ -2,7 +2,7 @@
 name = "spotify_export_models"
 description = "Rust structs for Spotify's export data with Serde support"
 authors = ["Blooym"]
-license = "BSD-3-Clause"
+license = "MIT OR Apache-2.0"
 version = "0.1.0"
 edition = "2021"
 
