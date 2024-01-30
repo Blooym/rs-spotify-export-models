@@ -1,5 +1,7 @@
 // Created from spotify export file `YourLibrary.json`.
 
+use alloc::{string::String, vec::Vec};
+
 #[cfg(feature = "serde")]
 use serde::{Deserialize, Serialize};
 

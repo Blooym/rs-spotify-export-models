@@ -1,5 +1,7 @@
 // Created from spotify export file `PlaylistInABottle.json`.
 
+use alloc::{string::String, vec::Vec};
+
 #[cfg(feature = "serde")]
 use serde::{Deserialize, Serialize};
 

@@ -1,5 +1,7 @@
 // Created from spotify export file `Identifiers.json`.
 
+use alloc::string::String;
+
 #[cfg(feature = "serde")]
 use serde::{Deserialize, Serialize};
 

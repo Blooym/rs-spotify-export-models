@@ -1,5 +1,7 @@
 // Created from spotify export file `StreamingHistory0.json`.
 
+use alloc::string::String;
+
 #[cfg(feature = "serde")]
 use serde::{Deserialize, Serialize};
 
